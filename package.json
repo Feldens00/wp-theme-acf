@@ -1,0 +1,34 @@
+{
+  "name": "wp-theme-acf",
+  "version": "1.0.0",
+  "description": "Wordpress theme with Advanced custom fields",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "build": "gulp build"
+  },
+  "author": "Daniel Arenhart",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "eslint-plugin-promise": "^3.8.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.6",
+    "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "gulp-notify": "^3.2.0",
+    "gulp-order": "^1.1.1",
+    "jquery": "^3.3.1",
+    "jquery.maskedinput": "^1.4.1",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.14.4",
+    "sweetalert": "^2.1.0"
+  }
+}

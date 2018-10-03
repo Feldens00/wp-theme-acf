@@ -1,0 +1,170 @@
+.singlepage.section-border-left {
+  //border-color: $green;
+}
+
+.singlepage {
+  .redes{
+    a{
+      color: #888;    
+    }
+  }
+
+  h1 {
+    font-size: 28px;
+    font-family: anotherShabby;
+    //background-color: $green;
+    color: $white;
+    margin-bottom: 0px;
+
+    img {
+      max-height: 40px;
+      max-width: 52px;
+      margin-right: 6px;
+    }
+  }
+
+  .text-wordpress{
+    h1,h2,h3,h4,h5,h6{
+      color: $red-dark;
+      font-style: italic;
+      font-family: Gotham;
+    }
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  h2.titulo {
+    color: $textos;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  hr {
+    color: $textos-destaque;
+  }
+
+  .categorias {
+    a {
+      color: $textos;
+    }
+    .active {
+      color: $red-dark;
+    }
+
+    h3 {
+      font-style: italic;
+      color: $red-dark;
+      font-weight: 700;
+    }
+  }
+  
+  .line {
+    width: 6vw;
+    margin-bottom: 5px;
+    border-top: solid 1px $green;
+  }
+
+  .font-italic{
+    font-style: italic;
+    color: $red-dark;
+  }
+
+  .cont-color {
+    background-color: $white;
+
+    @media (min-width: 768px) {
+      border-radius: 6px;
+    }
+
+    a {
+      color: $textos;
+    }
+    a:hover{
+      color: $red-dark;
+    }
+  }
+
+  .no-background {
+    background: none;    
+  }
+
+  .redes-share{
+    color: white;
+    padding: 10px;
+    margin: 1px;
+    text-decoration: none;
+  }
+
+  .facebook{
+    background-color: #395585; 
+  }
+
+  .twitter{
+    background-color: #5790CC; 
+  }
+
+  .whatsapp{
+    background-color: #51B948; 
+  }
+
+  .print{
+    background-color: #8B8C8F; 
+  }
+
+  .btn-face:hover{
+    color: #3b5998;
+  }
+
+  .btn-twitter:hover{
+    color: #1DA1F2;
+  }
+
+  .btn-youtube:hover{
+    color: #FF0000;
+  }
+
+  .btn-whats:hover{
+    color: #4DC247;
+  }
+
+  .btn-insta img {
+    width: 36px;
+    height: 22px;
+  }
+
+  .btn-flickr img {
+    width: 36px;
+    height: 22px;
+  }
+
+  .image-multimidia{
+    width: 350px;
+    height: 120px;
+    img {
+      height: 100%;
+    }
+  }
+  .center-mobile { 
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+  .hidden-big{
+    max-height: 80px;
+    overflow: hidden;
+    text-overflow: clip ellipsis;
+  }
+
+  .img-download { 
+    width: 35px;
+    height: 35px;
+  }
+  .m-multimidia{
+    margin: 5px;
+  }
+}
+ 

@@ -1,0 +1,45 @@
+.noticias.section-border-left {
+  border-color: $green;
+}
+
+.noticias {
+
+  h2 {
+    color: $green;
+    
+  }
+
+  .thumbnail {
+    height: 60%;
+  }
+
+  .btn-outline-primary {
+    border-color: $green;
+  }
+  .btn-outline-primary:hover {
+    background-color: $green;
+  }
+
+
+  .owl-item {
+    cursor: pointer;
+    height: 340px;
+
+    .badge {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+
+  }
+
+  .owl-dots {
+    
+    button {
+      border: solid 1px $green;
+    }
+    .active {
+      background-color: $green;
+    }
+  }
+}

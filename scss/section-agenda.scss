@@ -1,0 +1,28 @@
+.agenda.section-border-left {
+  border-color: $red;
+}
+
+.agenda {
+
+  h2 {
+    color: $red;
+    
+  }
+
+  .btn-outline-primary {
+    border-color: $red;
+  }
+  .btn-outline-primary:hover {
+    background-color: $red;
+  }
+
+  .owl-dots {
+    
+    button {
+      border: solid 1px $red;
+    }
+    .active {
+      background-color: $red;
+    }
+  }
+}

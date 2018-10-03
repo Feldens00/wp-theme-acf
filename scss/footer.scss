@@ -1,0 +1,46 @@
+
+footer { 
+  .font-shabby{
+    font-family: anotherShabby;
+    color: $yellow-dark;
+  }
+  a {
+  	color: #888;
+  }
+  a:hover {
+    color: $red-dark;
+  }
+  .dropdown-item.active, .dropdown-item:active {
+    color: $red-dark; 
+  }
+  .nav-link{
+    padding: 0;
+  }
+  .img-logo{
+    width: 200px;
+    height: 90px;
+  }
+  .img-logo-eagle{
+    width: 70px;
+    height: 28px;
+  }
+} 
+ 
+.bottom-bar {
+  background-color: $green-dark;
+  width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  #div-redes{
+    display:none;
+  }
+
+  #div-btn-contact{
+    padding: 30px;
+  }
+}
+
+#section-news{
+    background-color: $div-destaque;
+}

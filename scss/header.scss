@@ -1,0 +1,43 @@
+
+nav.top-bar {
+  background-color: #373;
+  color: $text-white;
+
+  a {
+    color: $text-white;
+  } 
+
+  input[type="text"] {
+    color: $text-white;
+    outline: none;
+    background: none;
+    border-bottom: solid 2px $text-white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  button {
+    color: $text-white;
+    background: none;
+    border: none; 
+    height: 24px;
+  }
+}
+
+nav.top-menu {
+
+  a {
+    color: $textos;
+  }
+  a:hover, .active {
+    color: $red-dark; 
+  }
+
+  .img-logo{
+    width: 170px;
+    height: 50px;
+  }
+  
+  background-color: $div-destaque;
+}

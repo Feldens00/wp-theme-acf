@@ -1,0 +1,14 @@
+.banner {
+  .background-border-green {
+    width: 8px;
+    height: 900px;
+    background-color: $green;
+    position: absolute;
+  }
+
+  img {
+    position: relative;
+    width: 100%;
+    z-index: 3;
+  }
+}

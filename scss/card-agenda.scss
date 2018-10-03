@@ -1,0 +1,48 @@
+.card-agenda {
+  
+  .row {
+    height: 100%;
+  }
+
+  .card-right {
+    background-color: $white;
+  }
+
+  @media (min-width: 768px) {
+      
+    .card-left {
+      border-radius: 6px 0px 0px 6px;
+    }
+    .card-right {
+      border-radius: 0px 6px 6px 0px;
+    }
+    
+  }
+
+  @media (max-width: 767.98px) {
+
+    .card-left {
+      border-radius: 6px 6px 0px 0px;
+    }
+    .card-right {
+      border-radius: 0px 0px 6px 6px;
+    }
+
+  }
+  
+  .card-left {
+    background-color: $div-destaque;
+
+    .date {
+      color: $red;
+      font-style: italic;
+    }
+    .month {
+      font-size: 35px;
+    }
+    .day {
+      height: 46px;
+      font-size: 45px;
+    }
+  }
+}

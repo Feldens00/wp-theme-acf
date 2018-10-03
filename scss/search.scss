@@ -1,0 +1,75 @@
+.search-page{
+
+    .cont-color {
+        background-color: $white;
+
+
+        @media (min-width: 768px) {
+          border-radius: 6px;
+        }
+    }
+    .pointer {
+        cursor: pointer;    
+    }
+    
+
+    .form-inline{
+
+        input{
+            color: $textos;
+            outline: none;
+            background: none;
+            border-bottom: solid 2px $textos;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 80%;
+        }
+
+        button{
+            color: $textos;
+            background: none;
+            border: none;
+            height: 24px;
+        }       
+    }
+
+    h4{
+        font-style: italic;
+        color: #981C20;
+    }
+
+    .img-error-search{
+        width: 100px;
+        height: 100px;
+    }
+
+    .badge{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFFFFF;
+    min-width: 70px;
+    font-size: 13px;
+    }
+
+    .badge-page{
+        background-color: #A37AB6;
+    }
+
+    .badge-apoio{
+        background-color: #E0D71E;
+    }
+
+    .badge-doacoes{
+        background-color: #ED2F24;
+    }
+
+    .badge-banner{
+        background-color: #D8D8D7;
+    }
+    .badge-agenda{
+        background-color: $red;
+    }
+}
+
+
